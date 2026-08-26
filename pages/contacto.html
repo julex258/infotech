@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Entre em contacto com a equipa InfoTech através do formulário, telefone, e-mail ou WhatsApp."
+    />
+
+    <title>InfoTech - Contacto</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body id="topo">
+    <header class="site-header">
+      <div class="topbar">
+        <a
+          class="brand"
+          href="../index.html"
+          aria-label="InfoTech - Página inicial"
+        >
+          <span class="brand-icon" aria-hidden="true">💻</span>
+
+          <span class="brand-text">
+            <strong>InfoTech</strong>
+            <small>Áreas da Informática</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav
+          class="menu"
+          id="main-menu"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li>
+              <a href="../index.html">Início</a>
+            </li>
+
+            <li>
+              <a href="sobre.html">Sobre</a>
+            </li>
+
+            <li>
+              <a href="areas.html">Áreas</a>
+            </li>
+
+            <li>
+              <a href="galeria.html">Galeria</a>
+            </li>
+
+            <li>
+              <a
+                href="contacto.html"
+                class="active"
+                aria-current="page"
+              >
+                Contacto
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Alternar tema"
+        >
+          ☀️
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card" aria-labelledby="titulo-contacto">
+        <p class="eyebrow">Fala connosco</p>
+
+        <h1 id="titulo-contacto">
+          Entre em contacto
+        </h1>
+
+        <p>
+          Tem dúvidas, sugestões ou queres saber mais sobre o projeto?
+          Entra em contacto connosco através do formulário ou de um dos
+          canais disponíveis abaixo.
+        </p>
+      </section>
+
+      <section
+        class="cards-grid"
+        aria-labelledby="titulo-canais"
+      >
+        <h2 id="titulo-canais" class="visually-hidden">
+          Canais de contacto
+        </h2>
+
+        <article class="card">
+          <h2>Telefone</h2>
+
+          <p>
+            <a href="tel:+258845486769">
+              +258 84 000 0000
+            </a>
+          </p>
+
+          <a
+            class="btn"
+            href="tel:+258845486769"
+          >
+            Ligar agora
+          </a>
+        </article>
+
+        <article class="card">
+          <h2>E-mail</h2>
+
+          <p>
+            <a href="mailto:juliomulhanga328@gmail.com">
+              contacto@infotech.com
+            </a>
+          </p>
+
+          <a
+            class="btn"
+            href="mailto:juliomulhanga328@gmail.com?subject=Contacto%20InfoTech"
+          >
+            Enviar e-mail
+          </a>
+        </article>
+
+        <article class="card">
+          <h2>WhatsApp</h2>
+
+          <p>
+            Envia uma mensagem diretamente através do WhatsApp.
+          </p>
+
+          <a
+            class="btn"
+            href="https://wa.me/258845486769?text=Olá%20InfoTech,%20gostaria%20de%20obter%20mais%20informações."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Abrir WhatsApp
+          </a>
+        </article>
+
+        <article class="card">
+          <h2>Facebook</h2>
+
+          <p>
+            Acompanha as novidades e publicações do projeto.
+          </p>
+
+          <a
+            class="btn"
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visitar Facebook
+          </a>
+        </article>
+      </section>
+
+      <section class="card" aria-labelledby="titulo-formulario">
+        <h2 id="titulo-formulario">
+          Enviar uma mensagem
+        </h2>
+
+        <form
+          action="mailto:juliomulhanga328@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="form-group">
+            <label for="nome">
+              Nome completo:
+            </label>
+
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite o seu nome"
+              autocomplete="name"
+              minlength="3"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">
+              E-mail:
+            </label>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="exemplo@email.com"
+              autocomplete="email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="telefone">
+              Telefone: 
+            </label>
+
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="+258 84 000 0000"
+              autocomplete="tel"
+              pattern="[+]?[0-9 ()-]{9,20}"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="assunto">
+              Assunto:
+            </label>
+
+            <select
+              id="assunto"
+              name="assunto"
+              required
+            >
+              <option value="">
+                Selecione um assunto
+              </option>
+
+              <option value="duvida">
+                Dúvida sobre informática
+              </option>
+
+              <option value="sugestao">
+                Sugestão para o projeto
+              </option>
+
+              <option value="problema">
+                Comunicação de problema
+              </option>
+
+              <option value="outro">
+                Outro assunto
+              </option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem">
+              Mensagem:
+            </label>
+
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="7"
+              placeholder="Escreva a sua mensagem..."
+              minlength="10"
+              maxlength="1000"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input
+              type="checkbox"
+              id="autorizacao"
+              name="autorizacao"
+              required
+            />
+
+            <label for="autorizacao">
+              Confirmo que as informações fornecidas estão corretas.
+            </label>
+          </div>
+
+          <div class="actions">
+            <button
+              class="btn"
+              type="submit"
+            >
+              Enviar mensagem
+            </button>
+
+            <button
+              class="btn btn-secondary"
+              type="reset"
+            >
+              Limpar formulário
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div>
+          <h2>InfoTech</h2>
+
+          <p>
+            Estamos prontos para responder às tuas questões.
+          </p>
+        </div>
+
+        <div>
+          <h2>Explorar</h2>
+
+          <ul class="footer-links">
+            <li>
+              <a href="../index.html">Início</a>
+            </li>
+
+            <li>
+              <a href="sobre.html">Sobre</a>
+            </li>
+
+            <li>
+              <a href="areas.html">Áreas</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Ir para</h2>
+
+          <a href="#topo">
+            Voltar ao topo ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>

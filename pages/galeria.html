@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="pt-MZ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Galeria de imagens e conteúdos multimédia sobre informática e tecnologia."
+    />
+
+    <title>InfoTech - Galeria</title>
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body id="topo">
+    <header class="site-header">
+      <div class="topbar">
+        <a
+          class="brand"
+          href="../index.html"
+          aria-label="InfoTech - Página inicial"
+        >
+          <span class="brand-icon" aria-hidden="true">💻</span>
+
+          <span class="brand-text">
+            <strong>InfoTech</strong>
+            <small>Áreas da Informática</small>
+          </span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav
+          class="menu"
+          id="main-menu"
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li>
+              <a href="../index.html">Início</a>
+            </li>
+
+            <li>
+              <a href="sobre.html">Sobre</a>
+            </li>
+
+            <li>
+              <a href="areas.html">Áreas</a>
+            </li>
+
+            <li>
+              <a
+                href="galeria.html"
+                class="active"
+                aria-current="page"
+              >
+                Galeria
+              </a>
+            </li>
+
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          type="button"
+          aria-label="Alternar tema"
+        >
+          ☀️
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="card" aria-labelledby="titulo-galeria">
+        <p class="eyebrow">Conteúdos visuais</p>
+
+        <h1 id="titulo-galeria">
+          Galeria tecnológica
+        </h1>
+
+        <p>
+          Esta galeria apresenta imagens, áudio e vídeo relacionados com a
+          informática e a tecnologia.
+        </p>
+      </section>
+
+      <section
+        class="card"
+        aria-labelledby="titulo-carrossel"
+      >
+        <h2 id="titulo-carrossel">
+          Galeria de imagens
+        </h2>
+
+        <div
+          class="carousel"
+          id="tech-carousel"
+          aria-roledescription="carrossel"
+          aria-label="Imagens sobre informática"
+        >
+          <div class="carousel-controls">
+            <button
+              class="carousel-btn"
+              id="carousel-pause"
+              type="button"
+              aria-label="Pausar carrossel"
+            >
+              Pausar
+            </button>
+
+            <button
+              class="carousel-btn"
+              id="carousel-prev"
+              type="button"
+              aria-label="Imagem anterior"
+            >
+              ← Anterior
+            </button>
+
+            <button
+              class="carousel-btn"
+              id="carousel-next"
+              type="button"
+              aria-label="Imagem seguinte"
+            >
+              Próxima →
+            </button>
+          </div>
+
+          <div
+            class="carousel-slides"
+            aria-live="polite"
+            aria-atomic="true"
+          >
+            <article
+              class="carousel-slide is-active"
+              data-slide="0"
+              aria-roledescription="slide"
+              aria-label="Imagem 1 de 3"
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                  alt="Placa eletrónica com componentes de hardware"
+                />
+
+                <figcaption>
+                  Hardware: componentes físicos dos equipamentos informáticos.
+                </figcaption>
+              </figure>
+            </article>
+
+            <article
+              class="carousel-slide"
+              data-slide="1"
+              aria-roledescription="slide"
+              aria-label="Imagem 2 de 3"
+              hidden
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                  alt="Computador portátil com código de programação no ecrã"
+                />
+
+                <figcaption>
+                  Programação: criação de aplicações, sites e sistemas.
+                </figcaption>
+              </figure>
+            </article>
+
+            <article
+              class="carousel-slide"
+              data-slide="2"
+              aria-roledescription="slide"
+              aria-label="Imagem 3 de 3"
+              hidden
+            >
+              <figure>
+                <img
+                  src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=900&q=80"
+                  alt="Sala com vários servidores ligados em rede"
+                />
+
+                <figcaption>
+                  Redes: comunicação entre computadores e servidores.
+                </figcaption>
+              </figure>
+            </article>
+          </div>
+
+          <div
+            class="carousel-indicators"
+            role="group"
+            aria-label="Selecionar imagem"
+          >
+            <button
+              class="carousel-indicator is-active"
+              type="button"
+              data-slide-to="0"
+              aria-label="Mostrar imagem 1"
+              aria-current="true"
+            >
+              1
+            </button>
+
+            <button
+              class="carousel-indicator"
+              type="button"
+              data-slide-to="1"
+              aria-label="Mostrar imagem 2"
+              aria-current="false"
+            >
+              2
+            </button>
+
+            <button
+              class="carousel-indicator"
+              type="button"
+              data-slide-to="2"
+              aria-label="Mostrar imagem 3"
+              aria-current="false"
+            >
+              3
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="cards-grid"
+        aria-labelledby="titulo-multimedia"
+      >
+        <h2 id="titulo-multimedia" class="visually-hidden">
+          Conteúdos multimédia
+        </h2>
+
+        <article class="card">
+          <h2>Áudio</h2>
+
+          <p>
+            Ouve o conteúdo de áudio relacionado com o projeto.
+          </p>
+
+          <audio controls preload="metadata">
+            <source
+              src="../audio/infotech.mp3"
+              type="audio/mpeg"
+            />
+
+            O teu navegador não suporta a reprodução de áudio.
+
+            <a href="../audio/infotech.mp3">
+              Descarregar o áudio
+            </a>
+          </audio>
+        </article>
+
+        <article class="card">
+          <h2>Vídeo</h2>
+
+          <p>
+            Assiste ao vídeo sobre tecnologias web.
+          </p>
+
+          <video
+            controls
+            preload="metadata"
+            poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+          >
+            <source
+              src="../videos/tecnologias_web.mp4"
+              type="video/mp4"
+            />
+
+            <track
+              kind="captions"
+              src="videos/legendas.vtt"
+              srclang="pt"
+              label="Português"
+              default
+            />
+
+            O teu navegador não suporta a reprodução de vídeo.
+
+            <a href="../videos/tecnologias_web.mp4">
+              Descarregar o vídeo
+            </a>
+          </video>
+        </article>
+      </section>
+
+      <section class="card" aria-labelledby="titulo-recursos">
+        <h2 id="titulo-recursos">
+          Recursos da galeria
+        </h2>
+
+        <ul>
+          <li>
+            Imagens relacionadas com hardware.
+          </li>
+
+          <li>
+            Imagem ilustrativa sobre programação.
+          </li>
+
+          <li>
+            Imagem ilustrativa sobre redes e servidores.
+          </li>
+
+          <li>
+            Reprodução de áudio.
+          </li>
+
+          <li>
+            Reprodução de vídeo.
+          </li>
+
+          <li>
+            Legendas opcionais para melhorar a acessibilidade.
+          </li>
+        </ul>
+      </section>
+
+      <section class="card actions" aria-label="Navegação adicional">
+        <a class="btn" href="../index.html">
+          Página inicial
+        </a>
+
+        <a class="btn btn-secondary" href="#topo">
+          Voltar ao topo
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <div>
+          <h2>InfoTech</h2>
+
+          <p>
+            Conteúdos visuais e multimédia para complementar o estudo da
+            tecnologia.
+          </p>
+        </div>
+
+        <div>
+          <h2>Explorar</h2>
+
+          <ul class="footer-links">
+            <li>
+              <a href="../index.html">Início</a>
+            </li>
+
+            <li>
+              <a href="areas.html">Áreas</a>
+            </li>
+
+            <li>
+              <a href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Ir para</h2>
+
+          <a href="#topo">
+            Voltar ao topo ↑
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
