@@ -1,0 +1,127 @@
+WEBVTT - Aprenda HTML em apenas 5 MINUTOS (2026)
+
+00:00:00.000 --> 00:00:07.000
+HTML está entre as linguagens mais populares do mundo conforme mostrou a pesquisa dos Stack Overflow de 2022 ela está
+
+00:00:07.000 --> 00:00:12.000
+perdendo somente para o JavaScript. E como eu já fiz um vídeo de aprenda JavaScript em 5 minutos
+
+00:00:12.000 --> 00:00:19.000
+chegou a vez dele: o HTML. Então nesse vídeo você vai aprender o HTML em apenas 5 minutos. Mas afinal
+
+00:00:19.000 --> 00:00:25.000
+de contas, o que é o HTML? O HTML não é uma linguagem de programação, proveniente do termo em inglês
+
+00:00:25.000 --> 00:00:34.000
+Hypertext Markup Language, ela significa simplesmente linguagem de marcação de hipertexto. Ela é uma linguagem focada em conteúdo, dá
+
+00:00:34.000 --> 00:00:41.000
+significado a eles e os organiza criando a estrutura de um site ou de um aplicativo web. O HTML foi
+
+00:00:41.000 --> 00:00:50.000
+criado por Tim Berners-Lee em 1991 e a ideia original era interligar arquivos, pesquisas e outros documentos com muita facilidade entre
+
+00:00:50.000 --> 00:00:58.000
+instituições científicas. Mal sabia ele que aquilo era simplesmente uma ideia revolucionária, que a palavra link seria de
+
+00:00:58.000 --> 00:01:07.000
+uma vez por todas ressignificada. Para começar a codificação em um arquivo chamado de index.html, essa extensão é a
+
+00:01:07.000 --> 00:01:14.000
+que representará o documento que será aberto no navegador. Nós chamamos de index ou índice pois trata-se do início da
+
+00:01:14.000 --> 00:01:21.000
+interligação entre os documentos, os chamados hipertextos. Para começar teremos um exemplo super básico que é um parágrafo. E como
+
+00:01:21.000 --> 00:01:27.000
+sabemos que isso é um parágrafo? É através desta tag com a marca p. Haverão mais tags, mas não
+
+00:01:27.000 --> 00:01:34.000
+se preocupe, você não precisa decorar todas elas. Abrimos a tag de abertura com sinal de menor, inserimos a marca
+
+00:01:34.000 --> 00:01:40.000
+dela e fechamos a tag de abertura com sinal de maior. Em seguida colocamos o conteúdo dentro e podemos então
+
+00:01:40.000 --> 00:01:46.000
+fechar a tag novamente: sinal de menor, agora para fechar nós usamos uma barra, inserimos a marca da tag
+
+00:01:46.000 --> 00:01:52.000
+de novo e por fim o sinal de maior. Parabéns! Você acabou de criar um parágrafo ou melhor, você marcou
+
+00:01:52.000 --> 00:01:59.000
+um parágrafo. É por isso que é uma linguagem de marcação, porque seu único objetivo é simplesmente marcar os conteúdos
+
+00:01:59.000 --> 00:02:05.000
+para que o navegador possa saber do que eles se tratam. Mas geralmente não é assim que nós iniciamos um documento
+
+00:02:05.000 --> 00:02:13.000
+HTML. A primeira coisa que devemos fazer é a declaração do tipo de documento. Através desta única linha você prepara
+
+00:02:13.000 --> 00:02:20.000
+o navegador para o que ele vai ter que interpretar. Olha, você é sortudo porque antigamente esta declaração costumava ser
+
+00:02:20.000 --> 00:02:28.000
+um palavrão, era bem gigante, então agradeça à modernidade. Lembra que eu falei que você não precisa decorar as tags?
+
+00:02:28.000 --> 00:02:35.000
+Na verdade você só precisa entendê-las. A estrutura de um site funciona mais ou menos como o corpo humano: nós
+
+00:02:35.000 --> 00:02:42.000
+temos cabeça, corpo e pé. Então logo no início do documento nós temos algo que se chama head ou cabeça.
+
+00:02:42.000 --> 00:02:49.000
+Essa é a área de configurações do site. Aqui você coloca informações como o título do site, que é aquele título
+
+00:02:49.000 --> 00:02:57.000
+que aparece na aba do navegador. Aqui você também pode linkar CSS e colocar outras informações adicionais. Logo abaixo da
+
+00:02:57.000 --> 00:03:04.000
+cabeça ou head nós temos o que chamamos de body ou corpo. É dentro do corpo que você coloca os conteúdos
+
+00:03:04.000 --> 00:03:10.000
+do site em si. Dentre eles podemos citar o nosso querido parágrafo. Geralmente um site não tem só um parágrafo, é
+
+00:03:10.000 --> 00:03:17.000
+óbvio. Você pode colocar aqui mais coisas como um título usando o h1, um subtítulo usando o h2, uma imagem
+
+00:03:17.000 --> 00:03:24.000
+e assim por diante. O HTML evoluiu muito desde a sua fundação. Hoje, e desde 2014, nós usamos o chamado
+
+00:03:24.000 --> 00:03:31.000
+HTML versão 5 e ele é incrível porque ele possui tags como vídeo, possui uma melhor semântica que dá
+
+00:03:31.000 --> 00:03:38.000
+significado aos conteúdos do site e vários outros benefícios. A versão em que o HTML se encontra atualmente é o 5.2
+
+00:03:38.000 --> 00:03:44.000
+e ela foi lançada em 2017. Bom, para finalizar o site nós podemos colocar o pé dele, o chamado footer
+
+00:03:44.000 --> 00:03:51.000
+ou rodapé. Aqui você pode colocar informações extras para o usuário ou simplesmente colocar o copyright, e seu primeiro documento
+
+00:03:51.000 --> 00:03:58.000
+web está pronto. É algo bem simples, é algo bem básico, mas é algo que você fez, então se orgulhe
+
+00:03:58.000 --> 00:04:05.000
+disso. Ah, detalhe: neste programa que estou usando, que se chama VS Code, você pode simplesmente iniciar uma estrutura HTML ao
+
+00:04:05.000 --> 00:04:13.000
+digitar html:5 e pressionar Tab. Como eu falei, não precisa decorar nada, basta entender. Uma vez que você entende e coloca
+
+00:04:13.000 --> 00:04:20.000
+em prática, tudo se torna muito mais fácil. Tenho a impressão de que estou esquecendo de algo... Ah sim! Durante este vídeo
+
+00:04:20.000 --> 00:04:27.000
+nós falamos a todo tempo de hipertextos, então podemos criar nosso primeiro hipertexto usando a tag a. A letra a significa
+
+00:04:27.000 --> 00:04:35.000
+âncora, algo que liga uma coisa a outra. No nosso primeiro site podemos ligá-lo ao site da Tiger
+
+00:04:35.000 --> 00:04:42.000
+Codes, lá se você quiser pode aprender conteúdos mais aprofundados sobre HTML, CSS e ainda dar suporte ao canal para
+
+00:04:42.000 --> 00:04:48.000
+manter-se ativo. Eu vou ficando por aqui, se esse vídeo te ajudou por favor deixa o like, se inscreva e
+
+00:04:48.000 --> 00:04:53.000
+não esquece de colocar nos comentários mais conteúdos para trazer aqui no canal. Muito obrigado por assistir e eu vejo você no próximo vídeo.
