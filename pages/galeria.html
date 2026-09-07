@@ -12,6 +12,7 @@
     <title>InfoTech - Galeria</title>
 
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../image/favicon.svg" type="image/x-icon">
   </head>
 
   <body id="topo">
@@ -42,11 +43,7 @@
           <span></span>
         </button>
 
-        <nav
-          class="menu"
-          id="main-menu"
-          aria-label="Navegação principal"
-        >
+        <nav class="menu" id="main-menu" aria-label="Navegação principal">
           <ul>
             <li>
               <a href="../index.html">Início</a>
@@ -57,17 +54,13 @@
             </li>
 
             <li>
-              <a href="areas.html">Áreas</a>
+              <a href="galeria.html" class="active" aria-current="page">
+                Galeria
+              </a>
             </li>
 
             <li>
-              <a
-                href="galeria.html"
-                class="active"
-                aria-current="page"
-              >
-                Galeria
-              </a>
+              <a href="areas.html">Áreas</a>
             </li>
 
             <li>
@@ -91,9 +84,7 @@
       <section class="card" aria-labelledby="titulo-galeria">
         <p class="eyebrow">Conteúdos visuais</p>
 
-        <h1 id="titulo-galeria">
-          Galeria tecnológica
-        </h1>
+        <h1 id="titulo-galeria">Galeria tecnológica</h1>
 
         <p>
           Esta galeria apresenta imagens, áudio e vídeo relacionados com a
@@ -101,13 +92,8 @@
         </p>
       </section>
 
-      <section
-        class="card"
-        aria-labelledby="titulo-carrossel"
-      >
-        <h2 id="titulo-carrossel">
-          Galeria de imagens
-        </h2>
+      <section class="card" aria-labelledby="titulo-carrossel">
+        <h2 id="titulo-carrossel">Galeria de imagens</h2>
 
         <div
           class="carousel"
@@ -144,11 +130,7 @@
             </button>
           </div>
 
-          <div
-            class="carousel-slides"
-            aria-live="polite"
-            aria-atomic="true"
-          >
+          <div class="carousel-slides" aria-live="polite" aria-atomic="true">
             <article
               class="carousel-slide is-active"
               data-slide="0"
@@ -244,10 +226,7 @@
         </div>
       </section>
 
-      <section
-        class="cards-grid"
-        aria-labelledby="titulo-multimedia"
-      >
+      <section class="cards-grid" aria-labelledby="titulo-multimedia">
         <h2 id="titulo-multimedia" class="visually-hidden">
           Conteúdos multimédia
         </h2>
@@ -255,40 +234,28 @@
         <article class="card">
           <h2>Áudio</h2>
 
-          <p>
-            Ouve o conteúdo de áudio relacionado com o projeto.
-          </p>
+          <p>Ouve o conteúdo de áudio relacionado com o projeto.</p>
 
           <audio controls preload="metadata">
-            <source
-              src="../audio/infotech.mp3"
-              type="audio/mpeg"
-            />
+            <source src="../audio/infotech.mp3" type="audio/mpeg" />
 
             O teu navegador não suporta a reprodução de áudio.
 
-            <a href="../audio/infotech.mp3">
-              Descarregar o áudio
-            </a>
+            <a href="../audio/infotech.mp3"> Descarregar o áudio </a>
           </audio>
         </article>
 
         <article class="card">
           <h2>Vídeo</h2>
 
-          <p>
-            Assiste ao vídeo sobre tecnologias web.
-          </p>
+          <p>Assiste ao vídeo sobre tecnologias web.</p>
 
           <video
             controls
             preload="metadata"
             poster="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
           >
-            <source
-              src="../videos/tecnologias_web.mp4"
-              type="video/mp4"
-            />
+            <source src="../videos/tecnologias_web.mp4" type="video/mp4" />
 
             <track
               kind="captions"
@@ -300,53 +267,33 @@
 
             O teu navegador não suporta a reprodução de vídeo.
 
-            <a href="../videos/tecnologias_web.mp4">
-              Descarregar o vídeo
-            </a>
+            <a href="../videos/tecnologias_web.mp4"> Descarregar o vídeo </a>
           </video>
         </article>
       </section>
 
       <section class="card" aria-labelledby="titulo-recursos">
-        <h2 id="titulo-recursos">
-          Recursos da galeria
-        </h2>
+        <h2 id="titulo-recursos">Recursos da galeria</h2>
 
         <ul>
-          <li>
-            Imagens relacionadas com hardware.
-          </li>
+          <li>Imagens relacionadas com hardware.</li>
 
-          <li>
-            Imagem ilustrativa sobre programação.
-          </li>
+          <li>Imagem ilustrativa sobre programação.</li>
 
-          <li>
-            Imagem ilustrativa sobre redes e servidores.
-          </li>
+          <li>Imagem ilustrativa sobre redes e servidores.</li>
 
-          <li>
-            Reprodução de áudio.
-          </li>
+          <li>Reprodução de áudio.</li>
 
-          <li>
-            Reprodução de vídeo.
-          </li>
+          <li>Reprodução de vídeo.</li>
 
-          <li>
-            Legendas opcionais para melhorar a acessibilidade.
-          </li>
+          <li>Legendas opcionais para melhorar a acessibilidade.</li>
         </ul>
       </section>
 
       <section class="card actions" aria-label="Navegação adicional">
-        <a class="btn" href="../index.html">
-          Página inicial
-        </a>
+        <a class="btn" href="../index.html"> Página inicial </a>
 
-        <a class="btn btn-secondary" href="#topo">
-          Voltar ao topo
-        </a>
+        <a class="btn btn-secondary" href="#topo"> Voltar ao topo </a>
       </section>
     </main>
 
@@ -377,14 +324,6 @@
               <a href="contacto.html">Contacto</a>
             </li>
           </ul>
-        </div>
-
-        <div>
-          <h2>Ir para</h2>
-
-          <a href="#topo">
-            Voltar ao topo ↑
-          </a>
         </div>
       </div>
     </footer>
