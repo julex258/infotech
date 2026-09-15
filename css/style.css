@@ -421,6 +421,7 @@ ol {
   gap: 18px;
   max-width: 1100px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .footer-content h2 {
