@@ -796,16 +796,21 @@ ol {
 .proprietario-foto {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
   overflow: hidden;
   border: 4px solid var(--accent);
+  border-radius: 50%;
+  background: var(--surface);
   flex-shrink: 0;
 }
 
 .proprietario-foto img {
-  width: 100%;
-  height: 100%;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: none !important;
   object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
 }
 
 .proprietario-info {
